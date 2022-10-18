@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.huddle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.huddle-container {
+    display: flex;
+    width: 375px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.huddle-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.huddle-header-img {
+    width: 90px;
+}
+.huddle-header-button {
+    width: 70px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 12px;
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    font-size: 10px;
+}
+.huddle-header-button:hover {
+    border: 1px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+}
+.huddle-body-top {
+    text-align: center;
+    margin-top: 30px;
+}
+.huddle-body-top-h1 {
+    font-family: "Poppins";
+    font-size: 28px;
+}
+.huddle-body-top-p {
+    font-family: "Open Sans";
+}
+.huddle-body-top-button {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: "Open Sans";
+    box-shadow: 5px 5px 5px gray;
+}
+.huddle-body-top-button:hover {
+    border: 1px solid hsl(321, 100%, 78%);
+    background-color: hsl(321, 100%, 78%);
+}
+.huddle-body-top-img {
+    width: 100%;
+    margin-top: 40px;
+}
+.huddle-body-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+.huddle-body-middle-communities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 70px;
+}
+.huddle-body-middle-communities-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+}
+.huddle-body-middle-communities-header {
+    font-size: 70px;
+    font-family: "Poppins";
+    margin-top: 30px;
+}
+.huddle-body-middle-communities-body { 
+    font-family: "Open Sans";
+    color: darkgray;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.huddle-body-grow {
+    margin-top: 30px;
+}
+.huddle-body-grow::before {
+    content: '';
+    display: block;
+    width: 100%;
+    background: url(images/bg-section-top-mobile-1.svg) no-repeat;
+    background-size: cover;
+    padding-top: 28%;
+}
+.huddle-body-grow::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: url(images/bg-section-bottom-mobile-1.svg) no-repeat;
+    background-size: cover;
+    padding-top: 28%;
+}
+.huddle-body-grow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+}
+.huddle-body-grow-container-img {
+    width: 375px;
+    margin-bottom: 20px;
+}
+.huddle-body-grow-container-h1 {
+    font-family: "Poppins";
+    font-size: 20px;
+}
+.huddle-body-grow-container-p {
+    font-family: "Open Sans";
+    font-size: 12px;
+    width: 80%;
+}
+.huddle-body-flowing {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.huddle-body-your {
+    margin-top: 100px;
+}
+.huddle-body-your::before {
+    content: '';
+    display: block;
+    width: 100%;
+    background: url(images/bg-section-top-mobile-2.svg) no-repeat;
+    background-size: cover;
+    padding-top: 28%;
+}
+.huddle-body-your::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: url(images/bg-section-bottom-mobile-2.svg) no-repeat;
+    background-size: cover;
+    padding-top: 28%;
+}
+.huddle-body-your-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+}
+.huddle-body-bottom {
+    text-align: center;
+    margin-top: 30px;
+}
+.huddle-footer {
+    width: 100%;
+    color: white;
+    margin-top: 100px;
+}
+.huddle-footer::before {
+    content: '';
+    display: block;
+    width: 100%;
+    background: url(images/bg-footer-top-mobile.svg) no-repeat;
+    background-size: cover;
+    padding-top: 28%;
+}
+.huddle-footer-container {
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: column;
+}
+.huddle-footer-container-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 25px;
+}
+.huddle-footer-container-newsletter-h1 {
+    font-family: "Poppins";
+    font-size: 20px;
+    margin-top: 40px;
+}
+.huddle-footer-container-newsletter-p {
+    font-family: "Open Sans";
+}
+.huddle-footer-container-newsletter-inputs {
+    display: flex;
+    flex-direction: column;
+}
+.huddle-footer-container-newsletter-inputs-input {
+    height: 30px;
+    border-radius: 5px;
+}
+.huddle-footer-container-newsletter-inputs-button {
+    margin-top: 15px;
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: "Open Sans";
+    align-self: flex-end;
+}
+.huddle-footer-container-newsletter-inputs-button:hover {
+    border: 1px solid hsl(321, 100%, 78%);
+    background-color: hsl(321, 100%, 78%);
+}
+.huddle-footer-container-huddle {
+    margin: 30px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.huddle-footer-container-huddle-img {
+    display: block;
+    filter: brightness(0) invert(1);
+    width: 60%;
+}
+.huddle-footer-container-huddle-phone {
+    display: flex;
+    align-items: center;
+}
+.huddle-footer-container-huddle-phone-p {
+    margin-left: 10px;
+}
+.huddle-footer-container-huddle-icons {
+    margin-top: 30px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
