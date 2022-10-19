@@ -258,3 +258,100 @@ html, body {
     justify-content: space-between;
     margin-bottom: 100px;
 }
+@media (min-width: 500px) {
+    .huddle-container {
+        width: 90%; 
+    }
+    .huddle-header {
+        margin-top: 40px;
+    }
+    .huddle-body-middle {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%; 
+    }
+    .huddle-body-grow, .huddle-body-flowing, .huddle-body-your {
+        width: 100%;
+    }
+    .huddle-body-grow::before {
+        content: '';
+        display: block;
+        width: 100%;
+        background: url(images/bg-section-top-desktop-1.svg) no-repeat;
+        background-size: cover;
+        padding-top: 19%;
+    }
+    .huddle-body-grow::after {
+        content: '';
+        display: block;
+        width: 100%;
+        background: url(images/bg-section-bottom-mobile-1.svg) no-repeat;
+        background-size: cover;
+        padding-top: 19%;
+    }
+    .huddle-body-your::before {
+        content: '';
+        display: block;
+        width: 100%;
+        background: url(images/bg-section-top-desktop-2.svg) no-repeat;
+        background-size: cover;
+        padding-top: 19%;
+    }
+    .huddle-body-your::after {
+        content: '';
+        display: block;
+        width: 100%;
+        background: url(images/bg-section-bottom-desktop-2.svg) no-repeat;
+        background-size: cover;
+        padding-top: 19%;
+    }
+    .huddle-footer::before {
+        content: '';
+        display: block;
+        width: 100%;
+        background: url(images/bg-footer-top-desktop.svg) no-repeat;
+        background-size: cover;
+        padding-top: 19%;
+    }
+    .huddle-footer-container {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .huddle-footer-container-newsletter {
+        margin: 0;
+        width: 50%;
+    }
+    .huddle-footer-container-huddle {
+        margin: 0;
+        margin-left: 10%;
+        width: 40%;
+    }
+    .huddle-footer-container-newsletter-h1, .huddle-footer-container-newsletter-p  {
+        margin: 0;
+        width: 60%;
+    }
+    .huddle-footer-container-newsletter-p {
+        margin-top: 20px;
+    }
+    .huddle-footer-container-newsletter-inputs {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .huddle-footer-container-newsletter-inputs-input {
+        width: 60%;
+    }
+    .huddle-footer-container-newsletter-inputs-button {
+        margin-top: 0;
+        margin-left: 40px;
+        margin-right: 20px;
+        height: 35px;
+        width: 100px;
+    }
+    .huddle-footer-container-huddle-img {
+        width: 40%;
+    }
+    .huddle-footer-container-huddle-icons {
+        width: 100px;
+    }
+}
