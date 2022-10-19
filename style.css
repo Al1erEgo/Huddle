@@ -132,6 +132,11 @@ html, body {
     width: 375px;
     margin-bottom: 20px;
 }
+.huddle-body-grow-container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .huddle-body-grow-container-h1 {
     font-family: "Poppins";
     font-size: 20px;
@@ -143,10 +148,17 @@ html, body {
 }
 .huddle-body-flowing {
     margin-top: 100px;
+}
+.huddle-body-flowing-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.huddle-body-flowing-container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .huddle-body-your {
     margin-top: 100px;
@@ -289,6 +301,15 @@ html, body {
         background-size: cover;
         padding-top: 19%;
     }
+    .huddle-body-grow-container {
+        flex-direction: row-reverse;
+    }
+    .huddle-body-grow-container-img {
+        width: 50%;
+    }
+    .huddle-body-flowing-container {
+        flex-direction: row;
+    }
     .huddle-body-your::before {
         content: '';
         display: block;
@@ -304,6 +325,9 @@ html, body {
         background: url(images/bg-section-bottom-desktop-2.svg) no-repeat;
         background-size: cover;
         padding-top: 19%;
+    }
+    .huddle-body-your-container {
+        flex-direction: row-reverse;
     }
     .huddle-footer::before {
         content: '';
