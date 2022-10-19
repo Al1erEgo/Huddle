@@ -307,8 +307,19 @@ html, body {
     .huddle-body-grow-container-img {
         width: 50%;
     }
+    .huddle-body-grow-container-text {
+        width: 40%;
+        align-items: flex-start;
+        text-align: left;
+    }
     .huddle-body-flowing-container {
         flex-direction: row;
+        justify-content: space-between;
+    }
+    .huddle-body-flowing-container-text {
+        text-align: left;
+        width: 40%;
+        align-items: flex-start;
     }
     .huddle-body-your::before {
         content: '';
